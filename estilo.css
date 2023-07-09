@@ -1,3 +1,22 @@
 body{
-    background-color: hsl(271, 31%, 47%);
+    background-color: white;
 }
+/*Link ativo/selecionado*/
+a{text-decoration: none;
+    background-color: #213A40;
+    color: #FF735C;
+    border-radius: 2px;
+    padding:5px 20px;
+}
+/*Quando o mouse passa por cima*/
+a:hover {
+    color: #E1E1E1;}
+/*a:active {
+        color: #306b92;}*/
+/*Link já visitado
+a:visited {
+  color: blue;}
+Link não visitado 
+a:link {
+    color: green;
+  }*/

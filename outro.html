@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+    <!-- css externo -->
+    <title>Viagem dos sonhos</title>
+    <table>
+      <tr>
+        <th><a href="disciplina.html" alt="HTML/disciplina">Disciplina</a></th>
+        <th><a href="aula.html" title="aula">Aula</a></th>
+        <th><a href="conteudo.html" alt="conteudo">Conteúdo</a></th>
+      </tr>
+    </table>
+    <!-- css internal -->
+    <style>
+      h1 {
+        background-color: #28b13a;
+        color: darkmagenta;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li>Pacotes</li>
+                <li>Taxa</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+    <p style="color: aquamarine">Conteúdos</p>
+    <!-- css inline -->
+    <ul>
+      <li>
+        Atribuição
+        <ul>
+          <li>Variáveis</li>
+          <li>Constantes</li>
+          <li>Comando de atribuição</li>
+        </ul>
+      </li>
+      <li>
+        Entrada/Saída
+        <ul>
+          <li>Comando de entrada de dados</li>
+          <li>Comando de saída de dados</li>
+        </ul>
+      </li>
+      <li>
+        Decisão
+        <ul>
+          <li>Se..Então</li>
+          <li>Se..Então..Senao</li>
+          <li>Escolha</li>
+        </ul>
+      </li>
+      <li>Repetição</li>
+      <li>Vetor</li>
+    </ul>
+    <h1>Taxas e serviços</h1>
+    <p>Veja nossas taxas e serviços</p>
+    <table border>
+      <caption>
+        Descrição dos serviços e respectivos valores
+      </caption>
+      <thead>
+        <tr>
+          <th>Serviço</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Reserva de hotel</td>
+          <td>R$150,00</td>
+        </tr>
+        <tr>
+          <td>Compra de passagens</td>
+          <td>R$100,00</td>
+        </tr>
+        <tr>
+          <td>Aluguel de carros</td>
+          <td>R$50,00</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>pé da</td>
+          <td>tabela</td>
+        </tr>
+      </tfoot>
+    </table>
+    <section>
+      <h2>Contato/orçamento</h2>
+      <form method="get" action="">
+        <fieldset>
+          <legend>Dados da viagem</legend>
+
+          <label>Nome:</label><br />
+          <input type="text" name="nome" /><br /><br />
+
+          <label>E-mail:</label><br />
+          <input type="email" required name="email" /><br /><br />
+
+          <label>Data de ida:</label><br />
+          <input type="date" name="dataIda" /><br /><br />
+
+          <label>Data de volta:</label><br />
+          <input type="date" name="dataVolta" /><br /><br />
+
+          <label>Quantidade de pessoas:</label><br />
+          <input type="number" name="qtdPessoas" /><br /><br />
+
+          <label>Senha:</label><br />
+          <input type="password" name="senha" /><br /><br />
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Quais serviços deseja contratar?</legend>
+          <label>
+            <br /><input
+              type="checkbox"
+              name="passagens"
+              value="Passagens"
+            />Compra de passagens
+          </label>
+          <label>
+            <br /><input
+              type="checkbox"
+              name="hospedagem"
+              value="Hospedagem"
+            />Reserva de Hospedagem
+          </label>
+          <label>
+            <br /><input
+              type="checkbox"
+              name="veiculos"
+              value="Veículo"
+            />Reserva de veículos <br />
+          </label>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Forma de Pagamento</legend>
+          <label>
+            <br /><input
+              type="radio"
+              name="formaPagamento"
+              value="Cartão de Crédito"
+            />Cartão de Crédito
+          </label>
+          <label>
+            <br /><input
+              type="radio"
+              name="formaPagamento"
+              value="Cartão de Débito"
+            />Cartão de Débito
+          </label>
+          <label>
+            <br /><input
+              type="radio"
+              name="formaPagamento"
+              value="Boleto"
+            />Boleto
+          </label>
+          <label>
+            <br /><input
+              type="radio"
+              name="formaPagamento"
+              value="Dinheiro ou Pix"
+            />Dinheiro ou Pix
+          </label>
+        </fieldset>
+        <br />
+
+        <label>Comentário:</label><br />
+        <textarea rows="5" name="comentario"></textarea><br /><br />
+
+        <button>Salvar</button>
+      </form>
+    </section>
+    <footer>
+      <p>Desenvolvido por Luchecy Ribeiro</p>
+    </footer>
+  </body>
+</html>
