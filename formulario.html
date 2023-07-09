@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <section>
+      <h2>Contato/orçamento</h2>
+      <form method="get" action="">
+        <fieldset>
+          <legend>Dados da viagem</legend>
+
+          <label>Nome:</label><br />
+          <input type="text" name="nome" /><br /><br />
+
+          <label>E-mail:</label><br />
+          <input type="email" required name="email" /><br /><br />
+
+          <label>Data de ida:</label><br />
+          <input type="date" name="dataIda" /><br /><br />
+
+          <label>Data de volta:</label><br />
+          <input type="date" name="dataVolta" /><br /><br />
+
+          <label>Quantidade de pessoas:</label><br />
+          <input type="number" name="qtdPessoas" /><br /><br />
+
+          <label>Senha:</label><br />
+          <input type="password" name="senha" /><br /><br />
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Quais serviços deseja contratar?</legend>
+          <label>
+            <br /><input
+              type="checkbox"
+              name="passagens"
+              value="Passagens"
+            />Compra de passagens
+          </label>
+          <label>
+            <br /><input
+              type="checkbox"
+              name="hospedagem"
+              value="Hospedagem"
+            />Reserva de Hospedagem
+          </label>
+          <label>
+            <br /><input
+              type="checkbox"
+              name="veiculos"
+              value="Veículo"
+            />Reserva de veículos <br />
+          </label>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Forma de Pagamento</legend>
+          <!--onde o cliente escolhe só uma forma-->
+          <label>
+            <br /><input
+              type="radio"
+              name="formaPagamento"
+              value="Cartão de Crédito"
+            />Cartão de Crédito
+          </label>
+          <label>
+            <br /><input
+              type="radio"
+              name="formaPagamento"
+              value="Cartão de Débito"
+            />Cartão de Débito
+          </label>
+          <label>
+            <br /><input
+              type="radio"
+              name="formaPagamento"
+              value="Boleto"
+            />Boleto
+          </label>
+          <label>
+            <br /><input
+              type="radio"
+              name="formaPagamento"
+              value="Dinheiro ou Pix"
+            />Dinheiro ou Pix
+          </label>
+        </fieldset>
+        <br />
+
+        <fieldset>
+            <br><legend>Escolha o prazo para pagamento</legend>
+            <select name="prazoPagamento" >
+                <option value="aVista"> Á vista</option>
+                <option value="5x">5x sem juros</option>
+                <option value="10x" selected>10x com juros</option>
+            </select>
+        </fieldset><br>
+
+        <label>Comentário:</label><br />
+        <textarea rows="5" name="comentario"></textarea><br /><br />
+
+        <button>Salvar</button>
+      </form>
+    </section>
+  </body>
+</html>
+
+<!--camelcase (é o estilo de escrita junta) exemplo: qtdPessoas-->
