@@ -4,12 +4,12 @@ body{
     font-family: Monospace, serif, sans-serif;
     font-size: 15px;
     line-height: 2.2em;
-    color: #CD4F40;
+    color: #FF735C;
     margin: 0;
-    
 }
+
 header{
-    background-color: #CD4F40;
+    background-color: #213A40;
     border-radius: 5px;
 }
 
@@ -44,7 +44,7 @@ nav{
     font-size: 15px;
     letter-spacing: 10px;
     height: 40px;
-    background-color: #162C4E;
+    background-color: #FF735C;
     padding-right: 40px;
 }
 
@@ -53,7 +53,7 @@ table{
 }
 
 table td{
-    color: #6E8675;
+    color: #213A40;
     padding: 5px;
 }
 
@@ -73,27 +73,27 @@ table thead th{
 
 h3{
     text-align: center;
-    color: #162C4E;
 }
 
-h2{
-    color: #162C4E;
-}
+#pacotes .figuras{}
 
-#pacotes .figuras figure{
-    display: inline-block;
-}
+/*Link ativo/selecionado*/
 a{text-decoration: none;
-    background-color: #162C4E;
+    background-color: #213A40;
     color: #FF735C;
     border-radius: 2px;
     padding:5px 20px;
 }
+/*Quando o mouse passa por cima*/
 a:hover {
     color: #E1E1E1;}
-
+/*a:active {
+        color: #306b92;}*/
+/*Link já visitado
+a:visited {
+  color: blue;}
+Link não visitado 
+a:link {
+    color: green;
+  }*/
 li{color: #FF735C;}
-
-#pacotes .figuras, #pacotes .videos{
-    text-align: center;
-}
