@@ -3,29 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="estilo.css" />
-    <title>Viagem dos sonhos</title>
-    <style>
-      h1 {
-        border-radius: 5px;
-        background-color: #CD4F40;
-        color: white;
-      }
-    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="CSS/estilo.css" />
+    <title>NossoCat</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Pacotes</a></li>
-          <li><a href="#">Taxa</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
+    <header class="container-fluid p-2 bg-f4a50e text-center">
+      <nav class="navbar navbar-expand-lg bg-CD4F40">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">NossoCat</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end bg-body-tertiary"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quem somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosso Time</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nossos Serviços</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-      <h1>Venha realizar a viagem dos seus sonhos!</h1>
+      <h1>NossoCat</h1>
+      <p>Cuidamos do seu gato como se fosse o nosso!</p>
     </header>
 
-    <section id="pacotes">
+    <section class="container-fluid bg-light text-center p-2">
       <h2>Conheça nossos pacotes</h2>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum distinctio
@@ -41,218 +89,191 @@
         possimus laboriosam quia voluptates?
       </p>
 
-      <div class="figuras">
-        <figure>
+      <div class="row">
+        <figure class="col text-center">
           <img
             src="img/nossos-pacotes/gatoAstronauta.jpg"
             alt="Gato Astronauta"
-            style="width: 500px"
-            width="500px"
+            style="width: 300px; height: 300px"
+            class="mx-auto"
           />
-          <figcaption>Espaço</figcaption>
+          <figure>Espaço</figure>
           <br />
         </figure>
-      </div>
-      <div class="videos">
-        <video controls width="500px">
-          <source src="video/gatoPreto.mp4" />
-          <source src="video/nomeaqui.webn" />
-          Seu navegador não suporta o formato do vídeo
-          <a
-            href="https://www.youtube.com/watch?v=Fqey8LxQxFU&list=RDFqey8LxQxFU&start_radio=1&ab_channel=OliviaRodrigoVEVO"
-          >
-            <br />
-            Clique aqui para acessar o vídeo</a
-          >
-        </video>
+        <figure class="col text-center">
+          <img
+            src="img/gato.JPG"
+            alt="Gato no Espaço"
+            style="width: 350px; height: 300px"
+          />
+          <figcaption>Gatinho</figcaption>
+        </figure>
       </div>
     </section>
 
-    <h1>Taxas e serviços</h1>
-
-    <h3>Veja nossas taxas e serviços</h3>
-
-    <table>
-      <caption>
-        Descrição dos serviços e respectivos valores
-      </caption>
-      <thead>
-        <tr>
-          <th>Serviço</th>
-          <th>Valor</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Reserva de hotel</td>
-          <td>R$150,00</td>
-        </tr>
-        <tr>
-          <td>Compra de passagens</td>
-          <td>R$100,00</td>
-        </tr>
-        <tr>
-          <td>Aluguel de carros</td>
-          <td>R$50,00</td>
-        </tr>
-      </tbody>
-
-      <tfoot>
-        <tr>
-          <td>pé da</td>
-          <td>tabela</td>
-        </tr>
-      </tfoot>
-    </table>
-    <section>
-      <h2>Contato/orçamento</h2>
+    <section class="container-fluid bg-warning text-center p-2">
+      <h2>Taxas de serviços</h2>
+      <table
+        class="table table-warning table-striped table-hover table-bordered border-warning"
+      >
+        <caption class="text-center">
+          Descrição dos serviços e respectivos valores
+        </caption>
+        <thead class="table-secondary">
+          <tr>
+            <th>Serviço</th>
+            <th>Valor</th>
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr>
+            <td>Reserva de hotel</td>
+            <td>R$150,00</td>
+          </tr>
+          <tr>
+            <td>Compra de passagens</td>
+            <td>R$100,00</td>
+          </tr>
+          <tr>
+            <td>Aluguel de carros</td>
+            <td>R$50,00</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>pé da</td>
+            <td>tabela</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <section class="container-fluid bg-light p-2">
+      <h2 class="text-center">Fale conosco</h2>
       <form method="get" action="">
         <fieldset>
           <legend>Dados do usuário</legend>
 
-          <label for="nome">Nome:</label><br />
-          <input
-            type="text"
-            placeholder="Digite o seu nome"
-            name="nome"
-            id="nome"
-            required
-            pattern="[a-z\s]+$"
-          /><br /><br />
+          <div class="mb-3">
+            <label class="form-label" for="nome">Nome:</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Digite o seu nome"
+              name="nome"
+              id="nome"
+              required
+              title="Somente letras são permitidas"
+              pattern="[a-zA-Z\s]+$"
+            />
+          </div>
 
-          <label>E-mail:</label><br />
-          <input
-            type="email"
-            placeholder="Digite o seu email"
-            required
-            name="email"
-            id="email"
-          /><br /><br />
-
-          <label for="telefone">Telefone:</label><br />
-          <input
-            type="tel"
-            id="telefone"
-            class="input-padrao"
-            required
-            placeholder="(xx) xxxxx-xxxx"
-          /><br /><br />
-
-          <label>Idade:</label><br />
-          <input type="date" name="idade" /><br /><br />
-
-          <label>Data de Ida:</label><br />
-          <input type="date" name="dataIda" /><br /><br />
-
-          <label>Quantidade de pessoas:</label><br />
-          <input type="number" name="qtdPessoas" /><br /><br />
-
-          <label>Senha:</label><br />
-          <input type="password" name="senha" /><br /><br />
-
-          <label for="sex">Sexo:</label><br />
-          <input type="radio" id="m" value="masculino" name="sexo" />
-          <label for="m">masculino</label>
-          <input type="radio" id="f" value="feminino" name="sexo" />
-          <label for="f">feminino</label><br /><br />
-
-          <label for="cor">Cor preferida:</label>
-          <input type="color" id="cor" /><br /><br />
-
-          <label for="url">URL:</label><br />
-          <input type="url" />
-
-          <p>
-            <label for="horaDesejada">Hora Desejada</label><br />
-            <input type="time" id="horaDesejada" />
-          </p>
-
-          <label for="peso">Peso</label>
-          0<input type="range" id="peso" name="peso" min="0" max="200" />200
-          <br />
+          <div class="mb-3">
+            <label class="form-label" for="email">E-mail:</label>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="xxxxx@xxxxx.xxx"
+              name="email"
+              id="email"
+              required
+              title="Somente letras são permitidas"
+              pattern="[a-zA-Z\s]+$"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="telefone">Telefone:</label>
+            <input
+              type="tel"
+              class="form-control"
+              placeholder="(xx) xxxxx-xxxx"
+              name="telefone"
+              id="telefone"
+              required
+              pattern="\(\d{2}\) \d{5}-\d{4}"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="idade">Idade:</label><br />
+            <input type="date" class="form-control" id="idade" name="idade" />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="dataIda">Data de Ida:</label><br />
+            <input
+              type="date"
+              class="form-control"
+              id="dataIda"
+              name="dataIda"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="numero">Quantidade de pessoas:</label
+            ><br />
+            <input
+              type="number"
+              class="form-control"
+              id="qtdpessoas"
+              name="qtdPessoas"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="sex">Sexo:</label><br />
+            <input type="radio" id="m" value="masculino" name="sexo" />
+            <label class="form-label" for="m">Masculino</label>
+            <input type="radio" id="f" value="feminino" name="sexo" />
+            <label class="form-label" for="f">Feminino</label><br /><br />
+          </div>
         </fieldset>
-
-        <br />
         <fieldset>
-          <legend>Quais serviços deseja contratar?</legend>
-          <label>
-            <br /><input
+          <legend>Qual(ais) serviço(s) você deseja contratar?</legend>
+          <div class="form-check">
+            <input
               type="checkbox"
+              class="form-check-input"
               name="passagens"
               value="Passagens"
-            />Compra de passagens
-          </label>
-          <label>
-            <br /><input
+              id="compraPassagens"
+            />
+            <label class="form-check-label" for="compraPassagens">
+              Compra de passagens
+            </label>
+          </div>
+          <div class="form-check">
+            <input
               type="checkbox"
+              class="form-check-input"
               name="hospedagem"
               value="Hospedagem"
-            />Reserva de Hospedagem
-          </label>
-          <label>
-            <br /><input
+              id="reservaHospedagem"
+            />
+            <label class="form-check-label" for="reservaHospedagem">
+              Reserva de Hospedagem
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input
               type="checkbox"
-              name="veiculos"
-              value="Veículo"
-            />Reserva de veículos <br />
-          </label>
+              class="form-check-input"
+              name="aluguelVeiculos"
+              value="Aluguel de veículos"
+              id="aluguelVeiculos"
+            />
+            <label class="form-check-label" for="aluguelVeiculos">
+              Reserva de veículos
+            </label>
+          </div>
         </fieldset>
         <br />
-
-        <fieldset>
-          <legend>Forma de Pagamento</legend>
-          <label>
-            <br /><input
-              type="radio"
-              name="formaPagamento"
-              value="Cartão de Crédito"
-            />Cartão de Crédito
-          </label>
-          <label>
-            <br /><input
-              type="radio"
-              name="formaPagamento"
-              value="Cartão de Débito"
-            />Cartão de Débito
-          </label>
-          <label>
-            <br /><input
-              type="radio"
-              name="formaPagamento"
-              value="Boleto"
-            />Boleto
-          </label>
-          <label>
-            <br /><input
-              type="radio"
-              name="formaPagamento"
-              value="Dinheiro ou Pix"
-            />Dinheiro ou Pix
-          </label>
-        </fieldset>
-        <br />
-
-        <fieldset>
-          <br />
-          <legend>Escolha o prazo para pagamento</legend>
-          <select name="prazoPagamento">
-            <option value="aVista">Á vista</option>
-            <option value="5x">5x sem juros</option>
-            <option value="10x" selected>10x com juros</option>
-          </select>
-        </fieldset>
-        <br />
-
-        <label>Comentário:</label><br />
-        <textarea rows="5" name="comentario"></textarea><br />
-
-        <input type="submit" name="salvar" value="Enviar dados" /><br />
-        <input type="reset" value="Reset" />
+        <button class="btn-secondary">Enviar</button>
       </form>
     </section>
-
-    <footer>
+    <footer class="container-fluid bg-f4a50e text-center">
       <p>Desenvolvido por Luchecy Ribeiro</p>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

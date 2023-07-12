@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">">
+    <link rel="stylesheet" href="CSS/estilo.css" />
+    <title>Viagem dos sonhos</title>
+    <style>
+      h1 {
+        border-radius: 5px;
+        background-color: #CD4F40;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Pacotes</a></li>
+          <li><a href="#">Taxa</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+      <h1>Venha realizar a viagem dos seus sonhos!</h1>
+    </header>
+
+    <section id="pacotes">
+      <h2>Conheça nossos pacotes</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum distinctio
+        ut et. Numquam, optio veritatis impedit consequuntur facilis vel illo
+        fugiat, ipsum error amet, iure laboriosam? Quaerat tenetur voluptatem
+        minus?
+      </p>
+      <a href="https://br.lipsum.com/feed/html" target="_blank">Lorem</a>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
+        accusantium deleniti sapiente, labore libero vitae. Repellat, saepe
+        maiores distinctio, atque voluptate dolorum dolore non quod laudantium
+        possimus laboriosam quia voluptates?
+      </p>
+
+      <div class="row">
+        <figure class="col text-center">
+          <img
+            src="img/nossos-pacotes/gatoAstronauta.jpg"
+            alt="Gato Astronauta"
+            style="width: 500px"
+            width="500px">
+            <figure>Espaço</figure>
+          <br />
+        </figure>
+        <figure class="col text-center">
+          <img src="img/gato.JPG" 
+          alt="Gato no Espaço"
+          style="width: 500px"
+          width="500px">
+          <figcaption>Gatinho</figcaption>
+        </figure>
+      </div>
+      <div class="videos">
+        <video controls width="500px">
+          <source src="video/gatoPreto.mp4" />
+          <source src="video/nomeaqui.webn" />
+          Seu navegador não suporta o formato do vídeo
+          <a
+            href="https://www.youtube.com/watch?v=Fqey8LxQxFU&list=RDFqey8LxQxFU&start_radio=1&ab_channel=OliviaRodrigoVEVO"
+          >
+            <br />
+            Clique aqui para acessar o vídeo</a
+          >
+        </video>
+      </div>
+    </section>
+
+    <h1>Taxas e serviços</h1>
+
+    <h3>Veja nossas taxas e serviços</h3>
+
+    <table>
+      <caption>
+        Descrição dos serviços e respectivos valores
+      </caption>
+      <thead>
+        <tr>
+          <th>Serviço</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Reserva de hotel</td>
+          <td>R$150,00</td>
+        </tr>
+        <tr>
+          <td>Compra de passagens</td>
+          <td>R$100,00</td>
+        </tr>
+        <tr>
+          <td>Aluguel de carros</td>
+          <td>R$50,00</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>pé da</td>
+          <td>tabela</td>
+        </tr>
+      </tfoot>
+    </table>
+    <section>
+      <h2>Contato/orçamento</h2>
+      <form method="get" action="">
+        <fieldset>
+          <legend>Dados do usuário</legend>
+
+          <label for="nome">Nome:</label><br />
+          <input
+            type="text"
+            placeholder="Digite o seu nome"
+            name="nome"
+            id="nome"
+            required
+            pattern="[a-z\s]+$"
+          /><br /><br />
+
+          <label>E-mail:</label><br />
+          <input
+            type="email"
+            placeholder="Digite o seu email"
+            required
+            name="email"
+            id="email"
+          /><br /><br />
+
+          <label for="telefone">Telefone:</label><br />
+          <input
+            type="tel"
+            id="telefone"
+            class="input-padrao"
+            required
+            placeholder="(xx) xxxxx-xxxx"
+          /><br /><br />
+
+          <label>Idade:</label><br />
+          <input type="date" name="idade" /><br /><br />
+
+          <label>Data de Ida:</label><br />
+          <input type="date" name="dataIda" /><br /><br />
+
+          <label>Quantidade de pessoas:</label><br />
+          <input type="number" name="qtdPessoas" /><br /><br />
+
+          <label>Senha:</label><br />
+          <input type="password" name="senha" /><br /><br />
+
+          <label for="sex">Sexo:</label><br />
+          <input type="radio" id="m" value="masculino" name="sexo" />
+          <label for="m">masculino</label>
+          <input type="radio" id="f" value="feminino" name="sexo" />
+          <label for="f">feminino</label><br /><br />
+
+          <label for="cor">Cor preferida:</label>
+          <input type="color" id="cor" /><br /><br />
+
+          <label for="url">URL:</label><br />
+          <input type="url" />
+
+          <p>
+            <label for="horaDesejada">Hora Desejada</label><br />
+            <input type="time" id="horaDesejada" />
+          </p>
+
+          <label for="peso">Peso</label>
+          0<input type="range" id="peso" name="peso" min="0" max="200" />200
+          <br />
+        </fieldset>
+
+        <br />
+        <fieldset>
+          <legend>Quais serviços deseja contratar?</legend>
+          <label>
+            <br /><input
+              type="checkbox"
+              name="passagens"
+              value="Passagens"
+            />Compra de passagens
+          </label>
+          <label>
+            <br /><input
+              type="checkbox"
+              name="hospedagem"
+              value="Hospedagem"
+            />Reserva de Hospedagem
+          </label>
+          <label>
+            <br /><input
+              type="checkbox"
+              name="veiculos"
+              value="Veículo"
+            />Reserva de veículos <br />
+          </label>
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend>Forma de Pagamento</legend>
+          <label>
+            <br /><input
+              type="radio"
+              name="formaPagamento"
+              value="Cartão de Crédito"
+            />Cartão de Crédito
+          </label>
+          <label>
+            <br /><input
+              type="radio"
+              name="formaPagamento"
+              value="Cartão de Débito"
+            />Cartão de Débito
+          </label>
+          <label>
+            <br /><input
+              type="radio"
+              name="formaPagamento"
+              value="Boleto"
+            />Boleto
+          </label>
+          <label>
+            <br /><input
+              type="radio"
+              name="formaPagamento"
+              value="Dinheiro ou Pix"
+            />Dinheiro ou Pix
+          </label>
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <br />
+          <legend>Escolha o prazo para pagamento</legend>
+          <select name="prazoPagamento">
+            <option value="aVista">Á vista</option>
+            <option value="5x">5x sem juros</option>
+            <option value="10x" selected>10x com juros</option>
+          </select>
+        </fieldset>
+        <br />
+
+        <label>Comentário:</label><br />
+        <textarea rows="5" name="comentario"></textarea><br />
+
+        <input type="submit" name="salvar" value="Enviar dados" /><br />
+        <input type="reset" value="Reset" />
+      </form>
+    </section>
+
+    <footer>
+      <p>Desenvolvido por Luchecy Ribeiro</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
