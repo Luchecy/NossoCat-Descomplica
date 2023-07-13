@@ -15,6 +15,41 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="CSS/estilo.css" />
+    <link
+      rel="apple-touch-icon"
+      href="/docs/5.3/assets/img/favicons/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link
+      rel="icon"
+      href="/docs/5.3/assets/img/favicons/favicon-32x32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="/docs/5.3/assets/img/favicons/favicon-16x16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg"
+      color="#712cf9"
+    />
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico" />
+    <meta name="theme-color" content="#712cf9" />
+    <link
+      href="/docs/5.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/footers/"
+    />
     <title>NossoCat</title>
   </head>
   <body>
@@ -169,8 +204,72 @@
         </button>
       </div>
     </header>
+    <hr class="featurette-divider" />
 
     <section class="container-fluid bg-light text-center p-2">
+      <h2>Quem somos</h2>
+      <br /><br />
+      <div class="container marketing">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Primeiro trecho.
+              <span class="text-body-secondary">segundo trecho.</span>
+            </h2>
+            <p class="lead">-NossoCat</p>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="img/quemsomos.png"
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              alt="quemsomos"
+            />
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" />
+            <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
+              Amor & Miados
+            </text>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="featurette-divider" />
+    <section class="container-fluid bg-light text-center p-2">
+      <h2>Nosso time</h2>
+      <br /><br />
+      <div class="row">
+        <div class="col-lg-4">
+          <img
+            src="img/luchecy.png"
+            class="bd-placeholder-img rounded-circle"
+            width="140"
+            height="140"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          />
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          <h2 class="fw-normal">CEO</h2>
+          <p class="text-bg-62330F">
+            Another exciting bit of representative placeholder content. This
+            time, we've moved on to the second column.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr class="featurette-divider" />
+    <section class="container-fluid bg-light text-center p-2 text-bg-62330F">
       <h2>Conheça nossos produtos</h2>
       <p>
         Apresentamos uma variedade completa de itens para o conforto e bem-estar
@@ -186,8 +285,9 @@
           <div class="card h-100">
             <img src="img/cards/card1.png" class="card-img-top" alt="card1" />
             <div class="card-body bg-F8EDE5">
-              <h5 class="card-title">Brinquedos</h5>
-              <h1 class="card-subtitle text-muted">R$25,00</h1>
+              <h5 class="card-title text-bg-62330F">Brinquedo Varinha Pena - Gatinhos Miau</h5>
+              <br />
+              <h1 class="card-subtitle text-bg-F8EDE5">R$39,99</h1>
               <p class="card-text">
                 Diversão garantida para seu felino com nossa incrível seleção de
                 brinquedos!
@@ -195,13 +295,13 @@
             </div>
             <a
               href="#"
-              class="btn bg-62330F"
+              class="btn bg-62330F text-bg-secondary"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
               >Adicionar ao carrinho</a
             >
             <div class="card-footer">
-              <small class="text-muted">Em até 2x</small>
+              <small class="text-bg-62330F">Em até 2x</small>
             </div>
           </div>
         </div>
@@ -209,31 +309,9 @@
           <div class="card h-100">
             <img src="img/cards/card2.png" class="card-img-top" alt="..." />
             <div class="card-body bg-F8EDE5">
-              <h5 class="card-title">Bolsa de Transporte</h5>
-              <h1 class="card-subtitle text-muted">R$70,00</h1>
-              <p class="card-text">
-                Viaje com seu gato com segurança e conforto: conheça nossas
-                opções de transporte!
-              </p>
-            </div>
-            <a
-              href="#"
-              class="btn bg-62330F"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              >Adicionar ao carrinho</a
-            >
-            <div class="card-footer">
-              <small class="text-muted">Em até 6x</small>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/cards/card3.png" class="card-img-top" alt="..." />
-            <div class="card-body bg-F8EDE5">
-              <h5 class="card-title">Camas e Casinhas</h5>
-              <h1 class="card-subtitle text-muted">R$100,00</h1>
+              <h5 class="card-title text-bg-62330F">Cama Nuvem - Gatinhos Miau</h5>
+              <br />
+              <h1 class="card-subtitle text-bg-F8EDE5">R$499,00</h1>
               <p class="card-text">
                 Conforto e sonhos felinos garantidos com nossas camas
                 aconchegantes!
@@ -241,22 +319,47 @@
             </div>
             <a
               href="#"
-              class="btn bg-62330F"
+              class="btn bg-62330F text-bg-secondary"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
               >Adicionar ao carrinho</a
             >
             <div class="card-footer">
-              <small class="text-muted">Em até 8x</small>
+              <small class="text-bg-62330F">Em até 6x</small>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="img/cards/card1.png" class="card-img-top" alt="card1" />
+            <img src="img/cards/card3.png" class="card-img-top" alt="..." />
             <div class="card-body bg-F8EDE5">
-              <h5 class="card-title">Brinquedos</h5>
-              <h1 class="card-subtitle text-muted">R$25,00</h1>
+              <h5 class="card-title text-bg-62330F">Bolsa de Transporte - Gatinhos Miau</h5>
+              <br />
+              <h1 class="card-subtitle text-bg-F8EDE5">R$152,99</h1>
+              <p class="card-text">
+                Viaje com seu gato com segurança e conforto: conheça nossas
+                opções de transporte!
+              </p>
+            </div>
+            <a
+              href="#"
+              class="btn bg-62330F text-bg-secondary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              >Adicionar ao carrinho</a
+            >
+            <div class="card-footer">
+              <small class="text-bg-62330F">Em até 8x</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/cards/card4.png" class="card-img-top" alt="card4" />
+            <div class="card-body bg-F8EDE5">
+              <h5 class="card-title text-bg-62330F">Comedouro Duplo Inox - Gatinhos Miau</h5>
+              <br />
+              <h1 class="card-subtitle text-bg-F8EDE5">R$49,90</h1>
               <p class="card-text">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This card has even longer content
@@ -265,22 +368,23 @@
             </div>
             <a
               href="#"
-              class="btn bg-62330F"
+              class="btn bg-62330F text-bg-secondary"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
               >Adicionar ao carrinho</a
             >
             <div class="card-footer">
-              <small class="text-muted">Em até 2x</small>
+              <small class="text-bg-62330F">Em até 2x</small>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="img/cards/card1.png" class="card-img-top" alt="card1" />
+            <img src="img/cards/card5.png" class="card-img-top" alt="card5" />
             <div class="card-body bg-F8EDE5">
-              <h5 class="card-title">Brinquedos</h5>
-              <h1 class="card-subtitle text-muted">R$25,00</h1>
+              <h5 class="card-title text-bg-62330F">Gravata Quadriculada - Gatinhos Miau</h5>
+              <br />
+              <h1 class="card-subtitle text-bg-F8EDE5">R$25,00</h1>
               <p class="card-text">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This card has even longer content
@@ -289,22 +393,23 @@
             </div>
             <a
               href="#"
-              class="btn bg-62330F"
+              class="btn bg-62330F text-bg-secondary"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
               >Adicionar ao carrinho</a
             >
             <div class="card-footer">
-              <small class="text-muted">Em até 2x</small>
+              <small class="text-bg-62330F">Em até 2x</small>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="img/cards/card1.png" class="card-img-top" alt="card1" />
+            <img src="img/cards/card6.png" class="card-img-top" alt="card6" />
             <div class="card-body bg-F8EDE5">
-              <h5 class="card-title">Brinquedos</h5>
-              <h1 class="card-subtitle text-muted">R$25,00</h1>
+              <h5 class="card-title text-bg-62330F">Poste Arranhador Nuvem - Gatinhos Miau</h5>
+              <br />
+              <h1 class="card-subtitle text-bg-F8EDE5">R$104,99</h1>
               <p class="card-text">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This card has even longer content
@@ -313,26 +418,61 @@
             </div>
             <a
               href="#"
-              class="btn bg-62330F"
+              class="btn bg-62330F text-bg-secondary"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
               >Adicionar ao carrinho</a
             >
             <div class="card-footer">
-              <small class="text-muted">Em até 2x</small>
+              <small class="text-bg-62330F">Em até 6x</small>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <img src="img/logo1.png" class="bi" width="25" />
+            <use xlink:href="#"></use>
+          </a>
+          <div class="mb-3 mb-md-0 text-bg-62330F">
+            <span>&copy; 2023 NossoCat, Recife-PE.</span>
+          </div>
+        </div>
+        <div class="mb-3 mb-md-0 text-bg-62330F"><span>Luchecy Ribeiro</span></div>
+        <div class="mb-3 mb-md-0 text-bg-62330F">
+          <span>Tefone: (81) 9 XXXX-XX</span>
+        </div>
 
-    <section class="container-fluid bg-warning text-center p-2">
-      <h2>Taxas de serviços</h2>
-    </section>
-
-    <footer class="container-fluid bg-F28705 text-center">
-      <p>Desenvolvido por Luchecy Ribeiro</p>
-    </footer>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="footer-link" href="#"
+              ><i class="bi bi-twitter" width="25" height="24"></i
+              ><use xlink:href="#twitter"
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a class="footer-link" href="#"
+              ><i class="bi bi-instagram" width="25" height="24"></i
+              ><use xlink:href="#instagram" />
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="footer-link" href="#"
+              ><i class="bi bi-facebook" width="25" height="24"></i>
+              <use xlink:href="#facebook" />
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

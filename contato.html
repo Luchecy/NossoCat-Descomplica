@@ -15,7 +15,42 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="CSS/estilo.css" />
-    <title>NossoCat</title>
+    <link
+      rel="apple-touch-icon"
+      href="/docs/5.3/assets/img/favicons/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link
+      rel="icon"
+      href="/docs/5.3/assets/img/favicons/favicon-32x32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="/docs/5.3/assets/img/favicons/favicon-16x16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg"
+      color="#712cf9"
+    />
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico" />
+    <meta name="theme-color" content="#712cf9" />
+    <link
+      href="/docs/5.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/footers/"
+    />
+    <title>Fale conosco</title>
   </head>
   <body>
     <header class="container-fluid p-2 bg-F28705 text-center">
@@ -59,24 +94,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Nossos Serviços</a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"><i class="bi bi-cart3"></i></a>
@@ -86,7 +105,7 @@
         </div>
       </nav>
     </header>
-    <section class="container-fluid bg-light p-2">
+    <section class="container bg-light p-2 text-bg-62330F">
       <h2 class="text-center">Fale conosco</h2>
       <form method="get" action="">
         <fieldset>
@@ -203,12 +222,52 @@
           </div>
         </fieldset>
         <br />
-        <button class="btn-secondary">Enviar</button>
+        <button class="btn-bg-F28705">Enviar</button>
       </form>
     </section>
-    <footer class="container-fluid bg-F28705 text-center">
-      <p>Desenvolvido por Luchecy Ribeiro</p>
-    </footer>
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <img src="img/logo1.png" class="bi" width="25" />
+            <use xlink:href="#"></use>
+          </a>
+          <div class="mb-3 mb-md-0">
+            <span>&copy; 2023 NossoCat, Recife-PE</span>
+          </div>
+        </div>
+        <div class="mb-3 mb-md-0"><span>Luchecy Araujo</span></div>
+        <div class="mb-3 mb-md-0">
+          <span>Tefone: (81) 9 XXXX-XX</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="footer-link" href="#"
+              ><i class="bi bi-twitter" width="25" height="24"></i
+              ><use xlink:href="#twitter"
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a class="footer-link" href="#"
+              ><i class="bi bi-instagram" width="25" height="24"></i
+              ><use xlink:href="#instagram" />
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="footer-link" href="#"
+              ><i class="bi bi-facebook" width="25" height="24"></i>
+              <use xlink:href="#facebook" />
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
