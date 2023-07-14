@@ -22,7 +22,7 @@
     transform: translateY(-2px);
 }
 .carousel-caption h5{
-    font-size: 65px;
+    font-size: 50px;
     color: #62330F;
     text-shadow: 2px 2px 2px #F8EDE5;
 }
@@ -37,9 +37,9 @@ h1{
     text-align: center;
     border-radius: 5px;
     background-color: #F28705;
-    color: #151918;
+    color: #151916;
     text-transform: capitalize;
-    font-style: verdana;
+    font-style: Tahoma;
 }
 
 h2{
@@ -47,6 +47,7 @@ h2{
     color: #62330F;
     padding: 0%;
     font-weight: 600;
+    font-style: Arial;
 }
 .btn-bg-F28705{background-color: #F28705 !important;
 
@@ -85,3 +86,18 @@ li{color: #07915c;}
       font-size: 3.5rem;
     }
   }
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  .carousel-caption h5 {
+    font-size: 50px;
+  }
+  
+  @media (max-width: 576px) {
+    /* Estilos para dispositivos móveis com largura máxima de 576px */
+    .carousel-caption h5 {
+      font-size: 14px;
+    }
+  }
+    

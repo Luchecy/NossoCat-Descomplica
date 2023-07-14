@@ -52,7 +52,7 @@
     />
     <title id="faleConosco">Fale conosco</title>
   </head>
-  <body id="inicioSites">
+  <body id="inicioSites" class="bg-F8EDE5">
     <header class="container-fluid p-2 bg-F28705 text-center">
       <nav class="navbar navbar-expand-lg bg-F28705 fixed-top">
         <div class="container-fluid">
@@ -113,11 +113,11 @@
         </div>
       </nav>
     </header>
-    <section class="container bg-light p-2 text-bg-62330F">
+    <section class="container p-2 text-bg-62330F bg-F8EDE5">
       <h2 class="text-center">Fale conosco</h2>
       <form method="get" action="">
         <fieldset>
-          <legend>Dados do usuário</legend>
+          <legend>Fórmulário de contato</legend>
 
           <div class="mb-3">
             <label class="form-label" for="nome">Nome:</label>
@@ -175,9 +175,30 @@
           <div class="mb-3">
             <label class="form-label" for="sex">Sexo:</label><br />
             <input type="radio" id="m" value="masculino" name="sexo" />
-            <label class="form-label" for="m">Masculino</label>
+            <label class="form-label" for="m">Masculino</label><br />
             <input type="radio" id="f" value="feminino" name="sexo" />
-            <label class="form-label" for="f">Feminino</label><br /><br />
+            <label class="form-label" for="f">Feminino</label><br />
+            <input type="radio" id="o" value="outro" name="sexo" />
+            <label class="form-label" for="o">Outros</label>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="outrosex"
+              >Em caso de outros, informe qual:</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Digite o seu nome"
+              name="nome"
+              id="nome"
+              required
+              title="Somente letras são permitidas"
+              pattern="[a-zA-Z\s]+$"
+            />
+          </div>
+          <div>
+            <label>Mensagem:</label><br />
+            <textarea rows="5" name="comentario"></textarea><br /><br />
           </div>
         </fieldset>
         <fieldset>
