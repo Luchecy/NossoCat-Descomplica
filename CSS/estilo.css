@@ -68,11 +68,8 @@ a{text-decoration: none;
     color: #62330F;
     border-radius: 100px;
     padding:5px 20px;
+    transition-duration: 1;
 }
-a:hover {
-    color: #F8EDE5;}
-
-li{color: #07915c;}
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -98,6 +95,13 @@ li{color: #07915c;}
     /* Estilos para dispositivos móveis com largura máxima de 576px */
     .carousel-caption h5 {
       font-size: 14px;
+    }
+  }
+
+  @media (max-width: 992px){
+    .nav-link{
+      border-bottom:solid 1px #F28705;
+      border-radius: 0;
     }
   }
     
