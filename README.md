@@ -10,8 +10,8 @@
 **#Tecnologias Utilizadas:**  
    As seguintes tecnologias foram empregadas no desenvolvimento do website do NossoCat E-commerce:
 
--HTML: Utilizado para estruturar o conteúdo do website, garantindo um layout claro e organizado.
--CSS: Utilizado para estilizar e personalizar os aspectos visuais do website, proporcionando uma interface atrativa e amigável.
+-HTML: Utilizado para estruturar o conteúdo do website, garantindo um layout claro e organizado.  
+-CSS: Utilizado para estilizar e personalizar os aspectos visuais do website, proporcionando uma interface atrativa e amigável.  
 -Bootstrap: Utilizado como framework para aprimorar a responsividade, otimizar os layouts e facilitar o processo de desenvolvimento.
 
 **#Como Contribuir:**  
@@ -24,9 +24,8 @@
    Agradecemos suas contribuições em nos ajudar a melhorar o website do NossoCat E-commerce!
 
 **#Contato:**  
-   Se você tiver alguma dúvida, sugestão ou feedback sobre este projeto, não hesite em entrar em contato conosco:
--[E-mail](luchecyribeiro@outlook.com)
-
+   Se você tiver alguma dúvida, sugestão ou feedback sobre este projeto, não hesite em entrar em contato conosco:  
+-[E-mail](luchecyribeiro@outlook.com)  
 -[LinkdIn](https://www.linkedin.com/in/luchecyribeiro/)
 
    Agradecemos muito seu interesse no website do NossoCat E-commerce e esperamos que você aproveite a experiência de fazer compras para seus amigos felinos.
