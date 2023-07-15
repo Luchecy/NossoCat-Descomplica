@@ -19,7 +19,7 @@ Agradecemos seu interesse em contribuir para o projeto do NossoCat E-commerce. P
 2. Realize as alterações desejadas, como adicionar novos recursos, corrigir problemas ou melhorar o código existente.
 3. Teste suas alterações para garantir que funcionem conforme o esperado e não introduzam novos bugs.
 4. Envie um pull request, fornecendo uma descrição detalhada das alterações realizadas e quaisquer justificativas relevantes.
-Agradecemos suas contribuições em nos ajudar a melhorar o website do NossoCat E-commerce!
+   Agradecemos suas contribuições em nos ajudar a melhorar o website do NossoCat E-commerce!
 
 Contato:
 Se você tiver alguma dúvida, sugestão ou feedback sobre este projeto, não hesite em entrar em contato conosco:
