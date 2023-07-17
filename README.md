@@ -1,4 +1,5 @@
-**#Readme - NossoCat E-commerce**       ![logo1](https://github.com/Luchecy/Questao2IP/assets/121204669/b8d14215-8902-4d34-97be-46692d187076)
+**#Readme - NossoCat E-commerce**   ![logo](https://raw.githubusercontent.com/Luchecy/NossoCat-Descomplica/main/img/logo1.png)
+
 
 ![NossoCat](https://github.com/Luchecy/NossoCat-Descomplica/assets/121204669/b8ffe7a4-f65b-4b7f-a85e-6354f5b485dc)
 
